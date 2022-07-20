@@ -1,0 +1,114 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    .banner{
+        width: 100%;
+        height: 1vh;
+        background-image: url("../../static/supergrafico.svg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .row-header{
+        width: 100%;
+        height: 13vh;
+        display: flex;
+        flex-direction: row;
+        .column-one{
+            width: 15%;
+            height: 100%;
+            display: flex;
+            aling-items: center;
+            justify-content: center;
+        }
+        .column-two{
+            width: 70%;
+            height: 100%;
+            display: flex;
+            justify-content: center; 
+            aling-items: center;
+            flex-direction: column;
+            .p-title{
+                font-weight: bold;
+                font-size: 32px;
+                font-family: "Arial";
+                text-align: center;
+            }
+        }
+        .column-three{
+            width: 15%;
+            height: 100%;
+        }
+    }
+    .header-title-form{
+        width: 100%;
+        height: 15vh;
+        display: flex;
+        justify-content: center; 
+        aling-items: center;
+        flex-direction: column;
+        .subtitle-header{
+            font-weight: bold;
+            font-size: 26px;
+            font-family: "Arial";
+            text-align: center;
+        }
+    }
+    .container-form{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        aling-items: center;
+        .main-form{
+            width:  30%;
+            height: auto;
+            flex-direction: flex-start;
+            .label-form{
+                font-size: 16px;
+                padding-bottom: 2px;
+                padding-top: 5px;
+                font-family: Arial
+            }
+            .input-form{
+                padding: 5px;
+                width: 100%;
+                height: 30px;
+                border: none;
+                border-radius: 5px;
+                background-color: #EFF1F2;
+                margin-bottom: 10px;
+            }
+            .input-form-descript{
+                padding: 5px;
+                width: 100%;
+                height: 130px;
+                border: none;
+                border-radius: 5px;
+                background-color: #EFF1F2;
+                margin-bottom: 10px;
+                resize: none;
+            } 
+            .align-btn{
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-bottom: 20px; 
+                .btn-send{
+                    width: 25%;
+                    height: 35px;
+                    background-color: #18837E;
+                    color: white;
+                    border: none;
+                    border-radius: 2px;
+                }
+                .btn-send:hover{
+                    background-color: #02201E;
+                    color: white;
+                    cursor: pointer;
+                    
+                }
+            }
+        }
+    }
+}
